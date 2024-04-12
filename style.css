@@ -1,0 +1,84 @@
+
+
+
+/*!Protože píšeš kód sama z úplné nuly, nezapomeň: - ověř, že v hlavičce HTML je responzivní meta tag "viewport", aby web správně fungoval na mobilních zařízeních - vlož na začátek CSS nastavení box-sizing: border-box; pro všechny prvky - pokud nechceš, tak toto striktně vzato dělat nemusíš, ale nastavování velikostí prvků pak pro tebe bude peklo :)*/
+
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #8B8B8B;
+    text-align: center;
+    border: 2px solid #FAFAFA;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+
+h1{
+    font-size: 28px;
+    color: black;
+}
+
+h2{
+    font-size: 16px;
+    color: black;
+    margin-top: 60px;
+}
+
+.logo {
+    max-width: 350px;
+    max-height: 290px;
+    margin: 60px 75px 40px 75px;
+}
+
+
+.modre{
+    display: inline-block;
+    border: 2px solid #407BFF;
+    border-radius: 20px;
+    background-color: #407BFF;
+    padding:10px 30px 10px 30px;
+    color: white;
+    margin-top:  0;
+
+}
+
+
+.sede{
+    display: inline-block;
+    border: 2px solid #8B8B8B;
+    border-radius: 20px;
+    background-color: #8B8B8B;
+    padding:10px 30px 10px 30px;
+    color: white;
+    margin-top: 0;
+  
+
+}
+
+.nabidka{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 20px 0 20px 0;
+    font-size: 13px;
+}
+
+.symbol{
+    height: 40px;
+    width: 40px;
+}
+
+.popis{
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
