@@ -11,7 +11,8 @@ body{
     font-family: "Montserrat", sans-serif;
     color: #8B8B8B;
     text-align: center;
-    border: 2px solid #FAFAFA;
+    border: 1px solid #8B8B8B;
+    background-color: #FAFAFA;
     max-width: 500px;
     margin: 0 auto;
     padding-left: 20px;
@@ -19,6 +20,7 @@ body{
     font-size: 16px;
     padding-bottom: 60px;
     max-width: 100%;
+
 }
 
 h1{
@@ -52,6 +54,7 @@ h2{
     padding:10px 30px 10px 30px;
     color: white;
     margin-top:  0;
+    font-size: 14px;
     
 }
 
@@ -64,6 +67,7 @@ h2{
     padding:10px 30px 10px 30px;
     color: white;
     margin-top: 0;
+    font-size: 14px;
    
 }
 
@@ -135,6 +139,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 230px;
+    height: 172px;
+    max-width: 100%;
 }  
 
 .symbol{
